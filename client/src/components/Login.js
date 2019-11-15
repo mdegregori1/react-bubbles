@@ -20,8 +20,8 @@ const handleSubmit = event => {
   axiosWithAuth()
   .post('http://localhost:5000/api/login', login)
   .then( response => {
-    console.log('response from post', response);
-    localStorage.setItem('token', response.data)
+    console.log('response from post', response.data);
+    localStorage.setItem('token', response.data.payload)
     setLogin({...login, isLoggedIn: true})
     props.history.push('/bubblepage');
   })
