@@ -35,8 +35,10 @@ To store authentication information
 
 You can use sessionStorage instead of local storage
 - [ ] Describe how web servers work.
-
+ your browser connects to a server and makes an HTTP request to  a page 
+ Then, if allowed, the server sends back the requested page to your browser
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+Not sure I understand what this is asking, but my guess is delete, post, get, and put. 
 
 
 ## Project Set Up
